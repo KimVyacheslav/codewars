@@ -20,17 +20,17 @@
 
 
 // ✅Solution:
-function makeNagative(i) {
+function makeNegative(i) {
   if (i <= 0) {
     return i
   } else {
     return -i
   }
 }
-const a = makeNagative(-5)
-const b = makeNagative(1)
-const c = makeNagative(0)
-const d = makeNagative(0.12)
+const a = makeNegative(-5)
+const b = makeNegative(1)
+const c = makeNegative(0)
+const d = makeNegative(0.12)
 console.log(a)
 console.log(b)
 console.log(c)
